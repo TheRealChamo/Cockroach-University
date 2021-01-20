@@ -10,10 +10,7 @@
 |`cockroach sql`	                        |Use the built-in SQL client.|
 |`cockroach sqlfmt`	                        |Reformat SQL queries for enhanced clarity.|
 |`cockroach node`	                        |List node IDs, show their status, decommission nodes for removal, or recommission nodes.|
-|`cockroach dump`	                        |Deprecated. Use one of the following instead:
-                                                - To back up your data, take a full backup.
-                                                - To export your data in plaintext format, use EXPORT.
-                                                - To view table schema in plaintext, use SHOW CREATE TABLE.|
+|`cockroach dump`	                        |Deprecated. Use one of the following instead: * To back up your data, take a full backup. * To export your data in plaintext format, use EXPORT. * To view table schema in plaintext, use SHOW CREATE TABLE.|
 |`cockroach demo`	                        |Start a temporary, in-memory CockroachDB cluster, and open an interactive SQL shell to it.|
 |`cockroach gen`	                        |Generate manpages, a bash completion file, example SQL data, or an HAProxy configuration file for a running cluster.|
 |`cockroach version`	                    |Output CockroachDB version details.|
