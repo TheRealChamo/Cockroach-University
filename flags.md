@@ -1,4 +1,4 @@
-## Flags ##
+# Flags #
 
 ### General ###
 

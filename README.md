@@ -2,7 +2,7 @@
 
 * [Instalación de CockroachDB en iOS](/instalacion-de-cockroachdb-en-ios.md)
 * [Instalación de CockroachDB en Windows](/instalacion-de-cockroachdb-en-windows.md) 
-* [Commands]()
+* Commands
     - [Commands Usage](/commands-usage.md)
     - [Flags](/flags.md)
 * [Common Commands in Terminal](/common-commands-in-terminal.md)

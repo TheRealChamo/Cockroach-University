@@ -1,4 +1,4 @@
-## Commands Usage ##
+# Commands Usage #
 
 |Commands	                                |Description|
 |--                                         |--|
