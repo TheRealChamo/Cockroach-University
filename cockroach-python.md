@@ -112,3 +112,27 @@ $ pip3 install flask-wtf
 Install pip en Python3
 
 python3 -m pip install -U pip
+
+
+IMPORT TABLE final_exam_users (
+    id UUID,
+    last_name STRING,
+    first_name STRING 
+)
+CSV DATA (
+    'https://cockroach-university-public.s3.amazonaws.com/10000final_exam_user_data.csv'
+)
+WITH delimiter = '|';
+
+CREATE TABLE final_exam_users (
+    id UUID,
+    last_name STRING,
+    first_name STRING);
+
+DROP TABLE IF EXISTS final_exam_users;
+
+CREATE TABLE authors (
+    id INT PRIMARY KEY, 
+    name STRING);
+
+ALTER TABLE final_exam_arrays ADD COLUMN email_array STRING[];
