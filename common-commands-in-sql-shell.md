@@ -1,14 +1,14 @@
 # Common Commands in SQL SHELL #
 
-## Muestra el listado de bases de datos ##
+## Shows the list of databases ##
 ```sql
 SHOW databases;
 ```
-## Muestra las tablas de la base de datos XXX ###
+## Show the database tables XXX ###
 ```sql
 SHOW TABLES FROM XXX
 ```
-## Muestra el listado de los datos de la base de datos XXX y de la tabla YYY con un limite de 10 filas ##
+## Shows the list of data from database XXX and from table YYY with a limit of 10 rows ##
 ```sql
 SELECT * FROM XXX.YYY LIMIT 10
 ```

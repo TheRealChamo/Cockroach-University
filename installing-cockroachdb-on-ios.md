@@ -1,4 +1,4 @@
-# Instalación de CockroachDB en iOS
+# Installing CockroachDB on iOS
 
 ## Download the binary ##
 

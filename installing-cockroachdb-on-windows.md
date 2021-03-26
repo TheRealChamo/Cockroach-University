@@ -1,4 +1,4 @@
-# Instalación de CockroachDB en Windows #
+# Installing CockroachDB on Windows #
 
 ## Download the executable ##
 
